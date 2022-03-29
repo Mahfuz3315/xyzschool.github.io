@@ -1,0 +1,43 @@
+* {
+    margin: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #EEEEEE;
+}
+#div1{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#schoolimg{
+    height: 300px;
+    width: 300px;
+}
+
+#div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#submitbutton{
+    margin-left: 50px;
+    color: #EEEEEE;
+    background-color: #398AB9;
+}
+#select{
+    margin-left: 50px;
+}
+#home{
+    margin-top: 20px;
+    margin-left: 733px;
+    background-color: #398AB9;
+}
+#applynowlink{
+    text-decoration: none;
+    color: #EEEEEE;
+}

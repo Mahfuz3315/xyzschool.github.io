@@ -1,0 +1,182 @@
+* {
+    margin: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #EEEEEE;
+}
+hr{
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+footer{
+    background-color: #398AB9;
+}
+
+.fixednav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0; left: 0; z-index: 9999; width: 100%; height: 50px; background-color: #1C658C;
+}
+
+.fixednav > .internalLink{
+    text-decoration: none;
+    color: #EEEEEE;
+    margin: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#login{
+    text-decoration: none;
+    color: #EEEEEE;
+    margin: 10px;
+    padding-left: 75%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 60px;
+}
+.nav>.navlink{
+    text-decoration: none;
+    color: #398AB9;
+    font-size: 20px;
+    margin: 20px;
+    opacity: 0.6;
+    transition: 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav>.navlink:hover{
+    opacity: 1;
+    text-decoration: underline;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+#xyzSchoolimg{
+    height: 400px;
+    width: 400px;
+    transition: 1s;
+}
+#xyzSchoolimg:hover{
+    transform: scale(1.2);
+}
+
+#div1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#div101{
+    margin: 50px;
+}
+
+#xyzSchooltag{
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #398AB9;
+}
+
+#intro{
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: #577BC1;
+}
+#goal{
+    margin-top: 10px;
+    margin-right: 100px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #577BC1;
+}
+
+#applybutton{
+    margin-top: 20px;
+    background-color: #398AB9;
+    color: #EEEEEE;
+    height: 30px;
+    width: 100px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+#applybutton:hover{
+    opacity: 1;
+}
+#applynowlink{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+#msgprin{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1C658C;
+}
+#prinmsg{
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #398AB9;
+}
+
+#div2{
+    display: flex;
+    flex-direction: row;
+}
+#div201{
+    margin: 100px;
+}
+#principalimg{
+    margin: 70px;
+    height: 400px;
+    width: 600px;
+}
+#prinname{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #398AB9;
+    margin-top: 50px;
+}
+#div3{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+}
+#div301{
+    display: flex;
+    flex-direction: row;
+}
+#div301 > .schoolimg{
+    height: 270px;
+    width: 400px;
+    margin: 20px;
+}
+#applybutton2{
+    margin-top: 50px;
+    background-color: #398AB9;
+    color: #EEEEEE;
+    height: 35px;
+    width: 85px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+#div4{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}
+#div4 > .foot{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 50px;
+}
+
+#gg{
+    margin-left: 40%;
+    margin-right: 35%;
+}

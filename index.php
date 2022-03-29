@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>XYZ School</title>
+    <link rel="shortcut icon" href="./img/xyz school logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="fixednav">
+        <a href="./index.php" class="internalLink">Home</a>
+        <a href="" class="internalLink">Notice</a>
+        <a href="" class="internalLink">Calender</a>
+        <a href="#hr3" class="internalLink">Contact</a>
+        <a href="./login.php" id="login">Log in</a>
+    </nav>
+    <nav class="nav">
+        <a href="#div1" class="navlink">About</a>
+        <a href="#hr3" class="navlink">Academics</a>
+        <a href="#hr2" class="navlink">Admission</a>
+    </nav>
+
+    <div id="div1">
+        <img id="xyzSchoolimg" src="./img/xyzSchool.jpg" alt="xyz School">
+        <div id="div101">
+            <p id="xyzSchooltag">Your dream is our responsibility</p>
+            <p id="goal">Our goal here is to prepare the next generation on great minds. We offer 50+ club activities for kids to help them shine in both physical and mental aspects of life.
+                Scholarships are given to students with extraordinary performance in of the activities. We aim to help the chldren reach their highest potential
+                and show them the way to make a difference in the world.
+            </p>
+            <p id="intro">Admission going on! Apply today for a chance of a lifetime</p>
+            <button id="applybutton"><a href="./applynow.php" id="applynowlink">Apply Now</a></button>
+        </div>
+    </div>
+
+    <hr id="hr1">
+
+    <div id="div2">
+        <div id="div201">
+            <h2 id="msgprin">Message from the principal</h2>
+            <p id="prinmsg">Since its inception in 2021, XYZ School has become one of the most reputed educational institution in Bangladesh. We have focused on generating new knowledge and promoting critical thinking amongst our students, graduating more than 7,000 young and energetic children during this time.</p>
+            <p id="prinname">- Dr. Russell Hampshire</p>
+        </div>
+        <img id="principalimg" src="./img/principal.jpg" alt="principal">
+    </div>
+
+    <hr id="hr2">
+
+    <div id="div3">
+        <div id="div301">
+            <img class="schoolimg" src="./img/little-girl-participating-online-classes.jpg" alt="litolgurl">
+            <img class="schoolimg" src="./img/school-friends.jpg" alt="schoolfriends">
+            <img class="schoolimg" src="./img/students-knowing-right-answer.jpg" alt="litolgurl">
+        </div>
+        <button id="applybutton2"><a href="./applynow.php" id="applynowlink">Apply Now</a></button>
+    </div>
+    
+    <hr id="hr3">
+
+</body>
+
+<footer>
+    <div id="div4">
+        <div class="foot">
+            <h3>About</h3>
+            <ul>
+                <li>Mission</li>
+                <li>Leadership and Management</li>
+                <li>Affiliations</li>
+                <li>HR and Administrative policies</li>
+                <li>XYZ School employment policies</li>
+                <li>Career at XYZ School</li>
+                <li>Principal</li>
+            </ul>
+        </div>
+        <div class="foot">
+            <h3>Academics</h3>
+            <ul>
+                <li>Institutes</li>
+                <li>Clubs</li>
+                <li>Fees and Payments</li>
+                <li>Programs</li>
+                <li>Policies</li>
+                <li>Scholarships</li>
+            </ul>
+        </div>
+        <div class="foot">
+            <h3>Campus Life</h3>
+            <ul>
+                <li>Cafeteria</li>
+                <li>Code of conduct</li>
+                <li>Counseling Unit</li>
+                <li>Dress code</li>
+                <li>Medical center</li>
+                <li>Policies</li>
+            </ul>
+        </div>
+        <div class="foot">
+            <h3>Important Links</h3>
+            <ul>
+                <li>Bangladesh Education board</li>
+                <li>Ministry od Eduction, Bangladesh</li>
+                <li>XYZ Enterprises</li>
+            </ul>
+        </div>
+    </div>
+    <p id="gg">All Rights Reserved by Mahfuzur Rahman Hasib | 2022</p>
+</footer>
+</html>
